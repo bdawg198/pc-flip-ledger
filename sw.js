@@ -1,4 +1,4 @@
-const CACHE_NAME = "pc-flip-ledger-v23";
+const CACHE_NAME = "pc-flip-ledger-v27";
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(["./", "./index.html", "./manifest.webmanifest"])));
